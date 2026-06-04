@@ -1,0 +1,52 @@
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  /* Bento Grid Wellness Color Palette */
+  --color-brand-dark: #070908;        /* Slate / pitch dark forest */
+  --color-brand-deep: #121815;        /* Premium custom Bento dark card color */
+  --color-brand-sage: #10b981;        /* Vibrating emerald accent */
+  --color-brand-sand: #fbfbf9;        /* Light linen backing for high contrast blocks */
+  --color-brand-accent: #10b981;      /* Replaced with Bento theme Accent Green */
+  --color-brand-accent-gold: #d4a373; /* Smooth clay gold accent */
+  --color-brand-coral: #ef4444;       /* Alert / Stress red highlight */
+  --color-brand-text-dark: #111827;   /* For light cards high-contrast text */
+  --color-neutral-card-border: rgba(255, 255, 255, 0.08);
+}
+
+/* Custom globally accessible utilities */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-dark);
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+  }
+  .bento-glow-border {
+    position: relative;
+  }
+  .bento-glow-border::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(to bottom right, rgba(16, 185, 129, 0.25), transparent 60%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+  .bg-bento-grid {
+    background-size: 32px 32px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  }
+}
+

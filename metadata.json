@@ -1,0 +1,6 @@
+{
+  "name": "Cortisol Bajo",
+  "description": "Landing page de alta conversión para el programa de bienestar Cortisol Bajo. Reduce el estrés, mejora el sueño y regula tus hormonas en 14 días.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
