@@ -13,10 +13,10 @@ export default function CheckoutSection() {
             ⚡ COMPRA 100% SEGURA
           </span>
           <h2 className="text-3xl sm:text-5xl font-black uppercase text-glow text-neutral-100 leading-tight">
-            Todo lo que recibirás hoy
+            Todo lo que recibirás hoy por solo $12 USD
           </h2>
           <p className="mt-3 text-xs sm:text-sm text-neutral-400 leading-relaxed max-w-xl mx-auto mb-6">
-            Te entregamos las llaves maestras de tu descanso hoy. Esto es todo el cargamento digital completo listo para descargar:
+            Te entregamos las llaves maestras de tu descanso hoy. Esto es todo el cargamento digital completo listo para descargar de forma inmediata:
           </p>
         </div>
 
@@ -25,75 +25,52 @@ export default function CheckoutSection() {
           <div className="space-y-4">
             <div className="flex justify-between items-center border-b border-white/5 pb-3">
               <span className="font-bold text-neutral-200 text-xs uppercase tracking-wider flex items-center gap-1.5">
-                <span className="h-2 w-2 rounded-full bg-brand-accent animate-pulse" /> Material Principal
+                <span className="h-2 w-2 rounded-full bg-brand-accent animate-pulse" /> Resumen de lo Incluido
               </span>
-              <span className="text-xs text-neutral-400 font-medium">Incluido</span>
+              <span className="text-xs text-brand-sage font-bold uppercase">Acceso Inmediato</span>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-neutral-300">
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-4 w-4 text-emerald-400 shrink-0" />
-                <span>Protocolo Cortisol Bajo</span>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-neutral-200 py-2">
+              <div className="flex items-center gap-2.5">
+                <span className="text-lg shrink-0 text-emerald-400">✅</span>
+                <span>Aplicación Cortisol Bajo</span>
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-4 w-4 text-emerald-400 shrink-0" />
-                <span>Reinicio de Cortisol en 14 Días</span>
+              <div className="flex items-center gap-2.5">
+                <span className="text-lg shrink-0 text-emerald-400">✅</span>
+                <span>Sistema Guiado de 14 Días</span>
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-4 w-4 text-emerald-400 shrink-0" />
-                <span>Método Anti-Despertar 3 AM</span>
+              <div className="flex items-center gap-2.5">
+                <span className="text-lg shrink-0 text-emerald-400">✅</span>
+                <span>Guía Rápida de Inicio</span>
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-4 w-4 text-emerald-400 shrink-0" />
-                <span>Programada Barriga Plana Hormonal</span>
+              <div className="flex items-center gap-2.5">
+                <span className="text-lg shrink-0 text-emerald-400">✅</span>
+                <span>Bono #1: Protocolo SOS Ansiedad</span>
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-4 w-4 text-emerald-400 shrink-0" />
-                <span>Energía Estable Todo el Día</span>
+              <div className="flex items-center gap-2.5">
+                <span className="text-lg shrink-0 text-emerald-400">✅</span>
+                <span>Bono #2: Menú Anticortisol</span>
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-4 w-4 text-emerald-400 shrink-0" />
-                <span>Sistema Antiestrés Invisible</span>
+              <div className="flex items-center gap-2.5">
+                <span className="text-lg shrink-0 text-emerald-400">✅</span>
+                <span>Bono #3: Ritual Sueño Profundo</span>
               </div>
-            </div>
-
-            <div className="flex justify-between items-center border-b border-white/5 pb-3 pt-3">
-              <span className="font-bold text-brand-accent text-xs uppercase tracking-wider flex items-center gap-1.5">
-                <span className="h-2 w-2 rounded-full bg-brand-accent" /> Paquete de Bonos de Regalo
-              </span>
-              <span className="text-xs text-green-400 font-bold uppercase">Gratis</span>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-neutral-300">
-              <div className="flex items-center gap-2">
-                <CheckCircle className="h-4 w-4 text-brand-accent shrink-0" />
-                <span>🎁 Protocolo SOS Ansiedad</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="h-4 w-4 text-brand-accent shrink-0" />
-                <span>🎁 Menú Anticortisol</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="h-4 w-4 text-brand-accent shrink-0" />
-                <span>🎁 Ritual Sueño Profundo</span>
-              </div>
-              <div className="flex items-center gap-2 font-bold text-amber-400">
-                <CheckCircle className="h-4 w-4 text-brand-accent shrink-0" />
-                <span>🎁 Plan Maestro Antiestrés 30D</span>
+              <div className="flex items-center gap-2.5 sm:col-span-2 text-brand-sage font-bold">
+                <span className="text-lg shrink-0 text-emerald-400">✅</span>
+                <span>Garantía de 7 Días</span>
               </div>
             </div>
           </div>
 
           {/* Original vs current prices comparisons */}
           <div className="mt-8 pt-6 border-t border-white/5 text-center flex flex-col justify-center items-center">
-            <span className="text-[10px] text-neutral-500 uppercase font-black tracking-widest block mb-1">Costo Original de Licencias</span>
-            <p className="text-neutral-400 line-through text-sm font-semibold mb-3">Valor Total Acumulado: $505.00</p>
+            <span className="text-[10px] text-neutral-500 uppercase font-black tracking-widest block mb-1">Costo Original Acumulado</span>
+            <p className="text-neutral-400 line-through text-sm font-semibold mb-3">Valor Total Acumulado: $308.00</p>
             
-            <div className="bg-brand-deep/60 px-6 py-4 rounded-2xl border border-brand-accent/20 max-w-xs w-full">
-              <span className="text-[9px] font-black uppercase text-brand-accent tracking-widest block mb-0.5">Precio de Tránsito Directo</span>
-              <p className="text-3xl font-black text-white">Consigue Todo Desde:</p>
+            <div className="bg-brand-deep/60 px-6 py-5 rounded-2xl border-2 border-brand-sage/40 max-w-xs w-full shadow-lg">
+              <span className="text-[9px] font-black uppercase text-brand-sage tracking-widest block mb-1">Precio Único de Oferta</span>
               <p className="text-4xl font-extrabold text-emerald-400 mt-1">$12 USD</p>
-              <span className="text-[9px] text-neutral-400 block mt-1">Pago único de por vida. Sin suscripción mensual artificial.</span>
+              <span className="text-[9px] text-neutral-400 block mt-2">Garantía blindada de 7 días. Pago único de por vida.</span>
             </div>
           </div>
 

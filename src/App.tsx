@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
   quickTestimonials,
-  intermediateTestimonials,
   largeTestimonials,
   faqs
 } from './data';
@@ -13,12 +12,9 @@ import FaqSection from './components/FaqSection';
 import UrgencyBanner from './components/UrgencyBanner';
 import BrandHeader from './components/BrandHeader';
 import HeroSection from './components/HeroSection';
-import ProblemSection from './components/ProblemSection';
-import RevelationSection from './components/RevelationSection';
-import ProductUnlocksSection from './components/ProductUnlocksSection';
-import MethodStepsSection from './components/MethodStepsSection';
-import TimelineSection from './components/TimelineSection';
-import FinalBenefitsSection from './components/FinalBenefitsSection';
+import AboutAppSection from './components/AboutAppSection';
+import InnerAppSection from './components/InnerAppSection';
+import OriginStorySection from './components/OriginStorySection';
 import VipBonusesSection from './components/VipBonusesSection';
 import SolidGuaranteeSection from './components/SolidGuaranteeSection';
 import PreOfferTestimonialsSection from './components/PreOfferTestimonialsSection';
@@ -115,49 +111,14 @@ export default function App() {
       {/* SECTION 1: HERO CONTAINER */}
       <HeroSection coverImage={COVER_IMAGE} scrollToCheckout={scrollToCheckout} />
 
-      {/* SECTION 2: QUICK SOCIAL PROOF STARS */}
-      <section id="proof-quick" className="relative-z-10">
-        <TestimonialSection
-          layoutType="quick-stars"
-          testimonials={quickTestimonials}
-        />
-      </section>
+      {/* WHAT IS CORTISOL BAJO EXPLAINER (APP NOT EBOOK) */}
+      <AboutAppSection />
 
-      {/* SECTION 3: EMOTIONAL PAIN POINTS / COGNITIVE MIRROR */}
-      <ProblemSection />
+      {/* INSIDE THE APP PREMIUM GRAPHIC PREVIEW SECTION */}
+      <InnerAppSection />
 
-      {/* SECTION 4: REVELATION AND SCIENTIFIC TWIST */}
-      <RevelationSection />
-
-      {/* SECTIONS 5 & 6: PRODUCT SHOWCASE AND UNLOCKS BENTO GRID */}
-      <ProductUnlocksSection scrollToCheckout={scrollToCheckout} />
-
-      {/* SECTION 7: 3-STEP BIOLOGICAL PROTOCOLO ROUTE */}
-      <MethodStepsSection />
-
-      {/* SECOND SOCIAL PROOF: METHOD VALIDATION CHARACTERS */}
-      <section id="proof-method-validate">
-        <TestimonialSection
-          layoutType="method-validation"
-          testimonials={intermediateTestimonials}
-        />
-      </section>
-
-      {/* SECTION 8: 14 DAYS PROTOCOLO DAILY CHRONOGRAM NODE TIMELINE */}
-      <TimelineSection scrollToCheckout={scrollToCheckout} />
-
-      {/* SECTION 9: SECONDARY PHYSICAL WELLNESS TRANSFORMATIONS GRID */}
-      <FinalBenefitsSection />
-
-      {/* SECTION 10: DEEP INDIVIDUAL STUDENT TESTIMONIAL STORY CARDS */}
-      <section id="proof-big-stories">
-        <TestimonialSection
-          layoutType="big-stories"
-          testimonials={largeTestimonials}
-          title="Lo que dicen los alumnos al desintoxicar sus hormonas"
-          subtitle="Gente real de diversos entornos profesionales que logró apagar sus disparadores y desinflamar su salud de forma sostenible."
-        />
-      </section>
+      {/* SECTION 10: ORIGIN STORY AND PERSPECTIVE */}
+      <OriginStorySection />
 
       {/* SECTION 11: 4 FREE VIP BONUSES GRID & SAVINGS CALLOUT */}
       <VipBonusesSection />

@@ -230,13 +230,6 @@ export const vipBonuses: BonusItem[] = [
     title: "🎁 Bono #3 — Ritual Sueño Profundo",
     value: 97,
     description: "La secuencia exacta paso a paso de 10 minutos antes de acostarte para forzar mecánicamente a tu cerebro a entrar en modo reparación profunda sin la necesidad de tomar melatonina ni pastillas dañinas."
-  },
-  {
-    id: "b_vip",
-    title: "🎁 Bono #4 (VIP PREMIUM) — Plan Maestro Antiestrés 30 Días",
-    value: 197,
-    description: "Calendario ultra claro día por día con metas, microhábitos de mantenimiento estricto y recordatorios integrados para la versión premium de nuestro protocolo. Ideal para la consolidación definitiva del bienestar.",
-    isVipPremium: true
   }
 ];
 

@@ -22,7 +22,7 @@ export default function TestimonialSection({
       <div className="w-full bg-brand-dark/40 border-y border-white/[0.06] py-10 px-4">
         <div className="mx-auto max-w-5xl">
           <div className="mb-8 text-center">
-            <div className="inline-flex items-center gap-1.5 rounded-full bg-brand-sage/10 border border-brand-sage/20 px-4 py-1.5 text-xs font-semibold text-brand-sage shadow-xs">
+            <div style={{ borderColor: '#ffffff' }} className="inline-flex items-center gap-1.5 rounded-full bg-brand-sage/10 border px-4 py-1.5 text-xs font-semibold text-brand-sage shadow-xs">
               <Users className="h-3.5 w-3.5 text-brand-sage" />
               <span>Más de 4,750 personas ya comenzaron a recuperar su descanso</span>
             </div>

@@ -64,10 +64,10 @@ export default function VipBonusesSection() {
         {/* Bonus callout */}
         <div className="bg-brand-dark text-white rounded-3xl p-6 sm:p-8 border border-white/5 text-center max-w-3xl mx-auto">
           <span className="text-[9px] font-bold text-amber-400 block tracking-widest uppercase mb-1">
-            AHORRO CONSOLIDADOR VIP
+            AHORRO CONSOLIDADOR
           </span>
           <p className="text-sm font-bold uppercase tracking-wide text-neutral-100 mb-2">
-            Valor combinado total de bonos: <span className="line-through text-neutral-400 font-semibold">$408.00</span> ➔ ¡Totalmente $0 Hoy!
+            Valor combinado total de bonos: <span className="line-through text-neutral-400 font-semibold">$211.00</span> ➔ ¡Totalmente $0 Hoy!
           </p>
           <p className="text-[11px] text-neutral-400 max-w-xl mx-auto leading-relaxed">
             Consigues todo este armamento de desintoxicación y reprogramación del estrés sin ningún coste extra, protegiendo tu inversión desde la primera noche.

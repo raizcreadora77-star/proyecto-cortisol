@@ -19,7 +19,7 @@ export default function HeroSection({ coverImage, scrollToCheckout }: HeroSectio
         <div className="text-center max-w-3xl mx-auto mb-12">
           {/* Trust badge */}
           <div className="inline-flex items-center gap-1.5 bg-brand-sage/15 border border-brand-sage/25 rounded-full px-4 py-1.5 text-[10px] font-black text-brand-sage uppercase tracking-widest mb-5">
-            <Zap className="h-3 w-3 text-brand-sage animate-pulse" /> Protocolo Hormonal Natural Adaptativo
+            <Zap className="h-3 w-3 text-brand-sage animate-pulse" /> App Interactiva + Acompañamiento de 14 Días
           </div>
 
           {/* TITULAR PRINCIPAL */}
@@ -29,7 +29,7 @@ export default function HeroSection({ coverImage, scrollToCheckout }: HeroSectio
 
           {/* SUBTITULAR PRINCIPAL */}
           <p className="text-sm sm:text-md md:text-lg text-neutral-300 leading-relaxed max-w-2xl mx-auto font-light mb-8">
-            Reduce los síntomas del cortisol elevado en 14 días y vuelve a dormir profundamente sin depender de pastillas, suplementos caros ni técnicas imposibles.
+            Recupera tu sueño, energía y tranquilidad en solo 14 días con un sistema guiado paso a paso que combina una <strong>aplicación interactiva</strong>, protocolos diarios y herramientas prácticas diseñadas para ayudarte a salir del modo supervivencia.
           </p>
 
           {/* CTA BUTTON */}
@@ -39,7 +39,7 @@ export default function HeroSection({ coverImage, scrollToCheckout }: HeroSectio
               onClick={scrollToCheckout}
               className="inline-flex cursor-pointer select-none items-center gap-2 rounded-full bg-gradient-to-r from-brand-sage via-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-brand-dark font-black tracking-wider text-xs sm:text-sm py-4.5 px-8 sm:px-12 shadow-[0_15px_30px_rgba(16,185,129,0.3)] hover:shadow-2xl hover:scale-[1.01] transition-all duration-300 text-center uppercase"
             >
-              <span>👉 QUIERO RECUPERAR MI SUEÑO AHORA</span>
+              <span>👉 ACCEDER A LA APP Y EMPEZAR DÍA 1</span>
             </a>
           </div>
         </div>
@@ -55,10 +55,10 @@ export default function HeroSection({ coverImage, scrollToCheckout }: HeroSectio
           <div className="lg:col-span-6">
             <div className="bg-brand-deep border border-white/[0.08] rounded-3xl p-6 sm:p-8 backdrop-blur shadow-2xl relative bento-glow-border">
               <span className="text-[10px] font-bold text-brand-sage uppercase tracking-widest block mb-1">
-                EL PROTOCOLO CIENTÍFICO
+                SISTEMA INMERSIVO DE SALUD
               </span>
               <h3 className="text-lg sm:text-xl font-extrabold text-neutral-100 tracking-tight mb-4 uppercase">
-                Lo que conseguirás en los siguientes 14 días:
+                Beneficios con la App y el Protocolo de 14 Días:
               </h3>
               
               <div className="space-y-4">
